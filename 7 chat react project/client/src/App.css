@@ -1,0 +1,154 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+*,
+::after,
+::before {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #282c34;
+	color: white;
+	padding: 40px;
+}
+ul {
+	list-style: none;
+	display: flex;
+	gap: 30px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.container {
+	width: 1120px;
+	margin: auto;
+}
+.page {
+	text-align: center;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	gap: 20px;
+}
+.form input {
+	padding: 8px 10px;
+	border-radius: 8px;
+	width: 280px;
+}
+.submit-btn {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display: inline-block;
+	padding: 8px 20px;
+	border-radius: 10px;
+}
+.chat {
+	display: flex;
+	margin-bottom: 30px;
+	min-height: 300px;
+	gap: 30px;
+}
+.chat .users {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	flex: 0.3 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.chat .chat-box {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	flex: 0.7 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.userone {
+	align-self: flex-end;
+	color: violet;
+}
+.registed-users {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 20px;
+	margin: 20px 0px;
+}
+.my-data {
+	padding: 20px;
+}
+.chat-user {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 50%;
+	/* border: red solid 2px; */
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sender {
+	align-self: flex-end;
+}
+.receiver {
+	color: violet;
+}
+.messages {
+	padding: 30px;
+	margin: 30px 0px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.message {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+}
+.write-message {
+	margin-top: auto;
+	width: 100%;
+	display: flex;
+	gap: 10px;
+}
+.write-message input {
+	flex: 1 1;
+	padding: 0px 20px;
+	border-radius: 8px;
+	outline: none;
+	height: 50px;
+}
+.btn-flex {
+	display: flex;
+	align-items: center;
+}
